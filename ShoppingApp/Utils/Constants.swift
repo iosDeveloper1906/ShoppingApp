@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+
+class Constant  {
+    
+    static let LoginScreenID = "LoginScreen"
+}

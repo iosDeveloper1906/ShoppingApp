@@ -7,12 +7,15 @@
 
 import UIKit
 import Lottie
-
+import RealmSwift
 
 
 class SplashScreen: UIViewController {
     
+    
     private var animationView : LottieAnimationView?
+    let realm = try! Realm()
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +28,7 @@ class SplashScreen: UIViewController {
         view.addSubview(animationView!)
         animationView?.play()
         
+
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
             
@@ -35,6 +39,18 @@ class SplashScreen: UIViewController {
             
         }
     }
+    
+//    func nextPage(){
+//        let userDetails = realm.objects(LoginModel.self)
+//        if userDetails.count != 0 {
+//            
+//        }else{
+//            
+//        }
+//
+//    }
+    
+    
 
 
 }

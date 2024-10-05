@@ -6,24 +6,64 @@
 //
 
 import UIKit
+import RealmSwift
 
 class UserDetailsScreen: UIViewController {
+    
+    let realm = try! Realm()
 
+    @IBOutlet weak var firstNameTV: UITextField!
+    @IBOutlet weak var pinCodeTV: UITextField!
+    @IBOutlet weak var addressTV: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+      
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func submitDetails(_ sender: UIButton) {
+        addUserDetails()
     }
-    */
+    
+    func addUserDetails() {
+        if(validation()){
+            let userDetails = LoginModel()
+            userDetails.userName = firstNameTV.text ?? ""
+            userDetails.mobileNumber = UserDefaults.standard.string(forKey: Constant.MobileNumber) ?? ""
+            userDetails.pinCode = pinCodeTV.text ?? ""
+            userDetails.address = addressTV.text ?? ""
+            
+            realm.beginWrite()
+            realm.add(userDetails)
+            try! realm.commitWrite()
+            
+            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+            let newvc = storyBoard.instantiateViewController(withIdentifier: Constant.DasboardScreen)
+           
+           self.navigationController?.pushViewController(newvc, animated: true)
+            
+        }
+        
+    }
+    
+    func validation() -> Bool {
+        
+        guard let userName = firstNameTV.text else {
+            debugPrint("Enter Name")
+            return false
+        }
+        
+        return true
+    
+        
+    }
+    
+    
+   
+    
+    
+
+    
 
 }

@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C021B622CB0368A00648A6D /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C021B602CB0368A00648A6D /* ProductCell.swift */; };
+		7C021B632CB0368A00648A6D /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C021B612CB0368A00648A6D /* ProductCell.xib */; };
+		7C078B7E2CB0FF930031B2E5 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C078B7D2CB0FF930031B2E5 /* ImageView.swift */; };
+		7C078B802CB0FFE00031B2E5 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7C078B7F2CB0FFE00031B2E5 /* Kingfisher */; };
+		7C32AC692CA7EF2E00B62DA4 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C32AC682CA7EF2E00B62DA4 /* CustomButton.swift */; };
+		7C35E4C82CA7C1290085B436 /* OTPScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C35E4C72CA7C1290085B436 /* OTPScreen.swift */; };
+		7C35E4CB2CA7D66C0085B436 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7C35E4CA2CA7D66C0085B436 /* IQKeyboardManagerSwift */; };
+		7C521A512CAD2FD900FA52E9 /* DashboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C521A502CAD2FD900FA52E9 /* DashboardScreen.swift */; };
+		7C94605C2CB10FE8005A8A9D /* ProductDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94605B2CB10FE8005A8A9D /* ProductDetailScreen.swift */; };
+		7C97B5012CB05983003502A7 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C97B5002CB05983003502A7 /* APIManager.swift */; };
+		7C97B5032CB059CA003502A7 /* ProductResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C97B5022CB059CA003502A7 /* ProductResponseModel.swift */; };
 		7C9E7E9A2CA4788F00F2F760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E7E992CA4788F00F2F760 /* AppDelegate.swift */; };
 		7C9E7E9C2CA4788F00F2F760 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E7E9B2CA4788F00F2F760 /* SceneDelegate.swift */; };
 		7C9E7E9E2CA4788F00F2F760 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E7E9D2CA4788F00F2F760 /* SplashScreen.swift */; };
@@ -20,6 +31,10 @@
 		7C9E7ED72CA4841C00F2F760 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7C9E7ED62CA4841C00F2F760 /* Lottie */; };
 		7C9E7ED92CA485CD00F2F760 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E7ED82CA485CD00F2F760 /* LoginScreen.swift */; };
 		7C9E7EDB2CA486BF00F2F760 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E7EDA2CA486BF00F2F760 /* Constants.swift */; };
+		7CE9C09E2CA8939C00333778 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7CE9C09D2CA8939C00333778 /* RealmSwift */; };
+		7CE9C09F2CA8939C00333778 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 7CE9C09D2CA8939C00333778 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		7CE9C0A22CA8946200333778 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9C0A12CA8946200333778 /* LoginModel.swift */; };
+		7CE9C0A42CA89CA300333778 /* UserDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9C0A32CA89CA300333778 /* UserDetailsScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +54,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7CE9C0A02CA8939C00333778 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7CE9C09F2CA8939C00333778 /* RealmSwift in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7C021B602CB0368A00648A6D /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		7C021B612CB0368A00648A6D /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		7C078B7D2CB0FF930031B2E5 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		7C32AC682CA7EF2E00B62DA4 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		7C35E4C72CA7C1290085B436 /* OTPScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPScreen.swift; sourceTree = "<group>"; };
+		7C521A502CAD2FD900FA52E9 /* DashboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardScreen.swift; sourceTree = "<group>"; };
+		7C94605B2CB10FE8005A8A9D /* ProductDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailScreen.swift; sourceTree = "<group>"; };
+		7C97B5002CB05983003502A7 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		7C97B5022CB059CA003502A7 /* ProductResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductResponseModel.swift; sourceTree = "<group>"; };
 		7C9E7E962CA4788F00F2F760 /* ShoppingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9E7E992CA4788F00F2F760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C9E7E9B2CA4788F00F2F760 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +95,8 @@
 		7C9E7ED32CA4809800F2F760 /* Shopping.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Shopping.json; sourceTree = "<group>"; };
 		7C9E7ED82CA485CD00F2F760 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		7C9E7EDA2CA486BF00F2F760 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7CE9C0A12CA8946200333778 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		7CE9C0A32CA89CA300333778 /* UserDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +104,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C078B802CB0FFE00031B2E5 /* Kingfisher in Frameworks */,
+				7CE9C09E2CA8939C00333778 /* RealmSwift in Frameworks */,
 				7C9E7ED72CA4841C00F2F760 /* Lottie in Frameworks */,
+				7C35E4CB2CA7D66C0085B436 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +128,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C021B5F2CB0366800648A6D /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				7C021B602CB0368A00648A6D /* ProductCell.swift */,
+				7C021B612CB0368A00648A6D /* ProductCell.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		7C32AC672CA7EF1B00B62DA4 /* CustomDesign */ = {
+			isa = PBXGroup;
+			children = (
+				7C32AC682CA7EF2E00B62DA4 /* CustomButton.swift */,
+			);
+			path = CustomDesign;
+			sourceTree = "<group>";
+		};
 		7C7DA6712CA5CC26005BDFE5 /* UICells */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +177,8 @@
 		7C9E7E982CA4788F00F2F760 /* ShoppingApp */ = {
 			isa = PBXGroup;
 			children = (
+				7C021B5F2CB0366800648A6D /* Xibs */,
+				7C32AC672CA7EF1B00B62DA4 /* CustomDesign */,
 				7C7DA6712CA5CC26005BDFE5 /* UICells */,
 				7C9E7ECE2CA478ED00F2F760 /* UI */,
 				7C9E7ECD2CA478C900F2F760 /* Config */,
@@ -153,6 +215,10 @@
 			children = (
 				7C9E7E9D2CA4788F00F2F760 /* SplashScreen.swift */,
 				7C9E7ED82CA485CD00F2F760 /* LoginScreen.swift */,
+				7C35E4C72CA7C1290085B436 /* OTPScreen.swift */,
+				7CE9C0A32CA89CA300333778 /* UserDetailsScreen.swift */,
+				7C521A502CAD2FD900FA52E9 /* DashboardScreen.swift */,
+				7C94605B2CB10FE8005A8A9D /* ProductDetailScreen.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -160,6 +226,7 @@
 		7C9E7ECA2CA478AE00F2F760 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				7C97B5002CB05983003502A7 /* APIManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -167,6 +234,8 @@
 		7C9E7ECB2CA478BA00F2F760 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7CE9C0A12CA8946200333778 /* LoginModel.swift */,
+				7C97B5022CB059CA003502A7 /* ProductResponseModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				7C9E7EDA2CA486BF00F2F760 /* Constants.swift */,
+				7C078B7D2CB0FF930031B2E5 /* ImageView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -214,6 +284,7 @@
 				7C9E7E922CA4788F00F2F760 /* Sources */,
 				7C9E7E932CA4788F00F2F760 /* Frameworks */,
 				7C9E7E942CA4788F00F2F760 /* Resources */,
+				7CE9C0A02CA8939C00333778 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -222,6 +293,9 @@
 			name = ShoppingApp;
 			packageProductDependencies = (
 				7C9E7ED62CA4841C00F2F760 /* Lottie */,
+				7C35E4CA2CA7D66C0085B436 /* IQKeyboardManagerSwift */,
+				7CE9C09D2CA8939C00333778 /* RealmSwift */,
+				7C078B7F2CB0FFE00031B2E5 /* Kingfisher */,
 			);
 			productName = ShoppingApp;
 			productReference = 7C9E7E962CA4788F00F2F760 /* ShoppingApp.app */;
@@ -297,6 +371,9 @@
 			mainGroup = 7C9E7E8D2CA4788F00F2F760;
 			packageReferences = (
 				7C9E7ED22CA4801900F2F760 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				7C35E4C92CA7D6480085B436 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				7CE9C0992CA83D5D00333778 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				7C078B7C2CB0FF6E0031B2E5 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 7C9E7E972CA4788F00F2F760 /* Products */;
 			projectDirPath = "";
@@ -316,6 +393,7 @@
 			files = (
 				7C9E7EA32CA4789100F2F760 /* Assets.xcassets in Resources */,
 				7C9E7ED42CA4809800F2F760 /* Shopping.json in Resources */,
+				7C021B632CB0368A00648A6D /* ProductCell.xib in Resources */,
 				7C9E7ED12CA47BBB00F2F760 /* Launch Screen.storyboard in Resources */,
 				7C9E7EA12CA4788F00F2F760 /* Base in Resources */,
 			);
@@ -342,11 +420,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C97B5012CB05983003502A7 /* APIManager.swift in Sources */,
 				7C9E7EDB2CA486BF00F2F760 /* Constants.swift in Sources */,
+				7C021B622CB0368A00648A6D /* ProductCell.swift in Sources */,
+				7C32AC692CA7EF2E00B62DA4 /* CustomButton.swift in Sources */,
 				7C9E7E9E2CA4788F00F2F760 /* SplashScreen.swift in Sources */,
+				7C94605C2CB10FE8005A8A9D /* ProductDetailScreen.swift in Sources */,
 				7C9E7ED92CA485CD00F2F760 /* LoginScreen.swift in Sources */,
+				7C521A512CAD2FD900FA52E9 /* DashboardScreen.swift in Sources */,
 				7C9E7E9A2CA4788F00F2F760 /* AppDelegate.swift in Sources */,
+				7C97B5032CB059CA003502A7 /* ProductResponseModel.swift in Sources */,
+				7CE9C0A22CA8946200333778 /* LoginModel.swift in Sources */,
 				7C9E7E9C2CA4788F00F2F760 /* SceneDelegate.swift in Sources */,
+				7C35E4C82CA7C1290085B436 /* OTPScreen.swift in Sources */,
+				7C078B7E2CB0FF930031B2E5 /* ImageView.swift in Sources */,
+				7CE9C0A42CA89CA300333778 /* UserDetailsScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,6 +771,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		7C078B7C2CB0FF6E0031B2E5 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.3;
+			};
+		};
+		7C35E4C92CA7D6480085B436 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.1;
+			};
+		};
 		7C9E7ED22CA4801900F2F760 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
@@ -691,13 +795,36 @@
 				minimumVersion = 4.5.0;
 			};
 		};
+		7CE9C0992CA83D5D00333778 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		7C078B7F2CB0FFE00031B2E5 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C078B7C2CB0FF6E0031B2E5 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		7C35E4CA2CA7D66C0085B436 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C35E4C92CA7D6480085B436 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
 		7C9E7ED62CA4841C00F2F760 /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7C9E7ED22CA4801900F2F760 /* XCRemoteSwiftPackageReference "lottie-spm" */;
 			productName = Lottie;
+		};
+		7CE9C09D2CA8939C00333778 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CE9C0992CA83D5D00333778 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
